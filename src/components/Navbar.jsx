@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/react.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -17,9 +17,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+        <img src={Logo} alt='Logo Image' style={{ width: '80px' }} />
       </div>
 
       {/* menu */}
@@ -101,7 +101,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='/https://www.linkedin.com/in/aryan-76794a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='/https://github.com/77warlord/FREELANCING_WEBSITE/edit/main/README.md'
             >
               Github <FaGithub size={30} />
             </a>
